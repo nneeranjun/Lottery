@@ -7,13 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1099E96AA6C1A916A7625F8F /* Pods_Go.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD3EFAF3E50EA59E9BD59A7B /* Pods_Go.framework */; };
+		A11964561CAA2DAC00FC1D60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A11964551CAA2DAC00FC1D60 /* Main.storyboard */; };
+		A119645C1CAB7C9600FC1D60 /* LotteryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A119645B1CAB7C9600FC1D60 /* LotteryTableViewCell.swift */; };
+		A11964601CAB8F7F00FC1D60 /* LotteryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A119645F1CAB8F7F00FC1D60 /* LotteryTableViewController.swift */; };
+		A1DC33DE1CA58CC200E5730C /* Standings.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DC33DD1CA58CC200E5730C /* Standings.swift */; };
+		A1DC33E01CA58DAE00E5730C /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DC33DF1CA58DAE00E5730C /* Team.swift */; };
+		A1E16F2F1CA6C2F800A415F3 /* LotteryMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E16F2E1CA6C2F800A415F3 /* LotteryMachine.swift */; };
 		A1E3E3FA1CA4BD430035B129 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E3E3F91CA4BD430035B129 /* AppDelegate.swift */; };
-		A1E3E3FC1CA4BD430035B129 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E3E3FB1CA4BD430035B129 /* ViewController.swift */; };
-		A1E3E3FF1CA4BD430035B129 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1E3E3FD1CA4BD430035B129 /* Main.storyboard */; };
 		A1E3E4011CA4BD430035B129 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1E3E4001CA4BD430035B129 /* Assets.xcassets */; };
 		A1E3E4041CA4BD430035B129 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1E3E4021CA4BD430035B129 /* LaunchScreen.storyboard */; };
 		A1E3E40F1CA4BD430035B129 /* GoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E3E40E1CA4BD430035B129 /* GoTests.swift */; };
 		A1E3E41A1CA4BD430035B129 /* GoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E3E4191CA4BD430035B129 /* GoUITests.swift */; };
+		A1E4A5AF1CAE33F300A91B8C /* Tabs.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E4A5AE1CAE33F300A91B8C /* Tabs.swift */; };
+		A1E4A5B11CB032F000A91B8C /* HeaderLotteryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E4A5B01CB032F000A91B8C /* HeaderLotteryCell.swift */; };
+		A1E4A5B51CB102F700A91B8C /* StandingsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E4A5B41CB102F700A91B8C /* StandingsTableViewCell.swift */; };
+		A1E4A5B71CB1038A00A91B8C /* StandingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E4A5B61CB1038A00A91B8C /* StandingsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,10 +43,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A11964551CAA2DAC00FC1D60 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../Main.storyboard; sourceTree = "<group>"; };
+		A119645B1CAB7C9600FC1D60 /* LotteryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LotteryTableViewCell.swift; sourceTree = "<group>"; };
+		A119645F1CAB8F7F00FC1D60 /* LotteryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LotteryTableViewController.swift; sourceTree = "<group>"; };
+		A1DC33DD1CA58CC200E5730C /* Standings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Standings.swift; sourceTree = "<group>"; };
+		A1DC33DF1CA58DAE00E5730C /* Team.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Team.swift; path = ../Team.swift; sourceTree = "<group>"; };
+		A1E16F2E1CA6C2F800A415F3 /* LotteryMachine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LotteryMachine.swift; sourceTree = "<group>"; };
 		A1E3E3F61CA4BD430035B129 /* Go.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Go.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1E3E3F91CA4BD430035B129 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A1E3E3FB1CA4BD430035B129 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A1E3E3FE1CA4BD430035B129 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A1E3E4001CA4BD430035B129 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1E3E4031CA4BD430035B129 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A1E3E4051CA4BD430035B129 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +60,13 @@
 		A1E3E4151CA4BD430035B129 /* GoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1E3E4191CA4BD430035B129 /* GoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoUITests.swift; sourceTree = "<group>"; };
 		A1E3E41B1CA4BD430035B129 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1E4A5AE1CAE33F300A91B8C /* Tabs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tabs.swift; sourceTree = "<group>"; };
+		A1E4A5B01CB032F000A91B8C /* HeaderLotteryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderLotteryCell.swift; sourceTree = "<group>"; };
+		A1E4A5B41CB102F700A91B8C /* StandingsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StandingsTableViewCell.swift; sourceTree = "<group>"; };
+		A1E4A5B61CB1038A00A91B8C /* StandingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StandingsTableViewController.swift; sourceTree = "<group>"; };
+		AE6FF3C0C604863BD1CC8E41 /* Pods-Go.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Go.release.xcconfig"; path = "Pods/Target Support Files/Pods-Go/Pods-Go.release.xcconfig"; sourceTree = "<group>"; };
+		CD3EFAF3E50EA59E9BD59A7B /* Pods_Go.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Go.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF2D015E834373818C5EBBEB /* Pods-Go.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Go.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Go/Pods-Go.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1099E96AA6C1A916A7625F8F /* Pods_Go.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +95,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2CCFBBD0BE771BE809EC19EF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DF2D015E834373818C5EBBEB /* Pods-Go.debug.xcconfig */,
+				AE6FF3C0C604863BD1CC8E41 /* Pods-Go.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6F915E2918302680C5614360 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD3EFAF3E50EA59E9BD59A7B /* Pods_Go.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A1E3E3ED1CA4BD430035B129 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +119,8 @@
 				A1E3E40D1CA4BD430035B129 /* GoTests */,
 				A1E3E4181CA4BD430035B129 /* GoUITests */,
 				A1E3E3F71CA4BD430035B129 /* Products */,
+				2CCFBBD0BE771BE809EC19EF /* Pods */,
+				6F915E2918302680C5614360 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +137,20 @@
 		A1E3E3F81CA4BD430035B129 /* Go */ = {
 			isa = PBXGroup;
 			children = (
+				A11964551CAA2DAC00FC1D60 /* Main.storyboard */,
+				A1DC33DF1CA58DAE00E5730C /* Team.swift */,
 				A1E3E3F91CA4BD430035B129 /* AppDelegate.swift */,
-				A1E3E3FB1CA4BD430035B129 /* ViewController.swift */,
-				A1E3E3FD1CA4BD430035B129 /* Main.storyboard */,
 				A1E3E4001CA4BD430035B129 /* Assets.xcassets */,
 				A1E3E4021CA4BD430035B129 /* LaunchScreen.storyboard */,
 				A1E3E4051CA4BD430035B129 /* Info.plist */,
+				A1DC33DD1CA58CC200E5730C /* Standings.swift */,
+				A1E16F2E1CA6C2F800A415F3 /* LotteryMachine.swift */,
+				A119645B1CAB7C9600FC1D60 /* LotteryTableViewCell.swift */,
+				A119645F1CAB8F7F00FC1D60 /* LotteryTableViewController.swift */,
+				A1E4A5AE1CAE33F300A91B8C /* Tabs.swift */,
+				A1E4A5B01CB032F000A91B8C /* HeaderLotteryCell.swift */,
+				A1E4A5B41CB102F700A91B8C /* StandingsTableViewCell.swift */,
+				A1E4A5B61CB1038A00A91B8C /* StandingsTableViewController.swift */,
 			);
 			path = Go;
 			sourceTree = "<group>";
@@ -132,9 +180,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A1E3E41E1CA4BD430035B129 /* Build configuration list for PBXNativeTarget "Go" */;
 			buildPhases = (
+				8E34C1645583723DBF3E84CD /* Check Pods Manifest.lock */,
 				A1E3E3F21CA4BD430035B129 /* Sources */,
 				A1E3E3F31CA4BD430035B129 /* Frameworks */,
 				A1E3E3F41CA4BD430035B129 /* Resources */,
+				06CFAEC290D17174B6CDC180 /* Embed Pods Frameworks */,
+				1326C917886D26BE2BE16383 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -232,9 +283,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A11964561CAA2DAC00FC1D60 /* Main.storyboard in Resources */,
 				A1E3E4041CA4BD430035B129 /* LaunchScreen.storyboard in Resources */,
 				A1E3E4011CA4BD430035B129 /* Assets.xcassets in Resources */,
-				A1E3E3FF1CA4BD430035B129 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,13 +305,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		06CFAEC290D17174B6CDC180 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Go/Pods-Go-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1326C917886D26BE2BE16383 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Go/Pods-Go-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E34C1645583723DBF3E84CD /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A1E3E3F21CA4BD430035B129 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1E3E3FC1CA4BD430035B129 /* ViewController.swift in Sources */,
+				A1E4A5AF1CAE33F300A91B8C /* Tabs.swift in Sources */,
+				A1DC33DE1CA58CC200E5730C /* Standings.swift in Sources */,
+				A1DC33E01CA58DAE00E5730C /* Team.swift in Sources */,
+				A1E16F2F1CA6C2F800A415F3 /* LotteryMachine.swift in Sources */,
+				A1E4A5B51CB102F700A91B8C /* StandingsTableViewCell.swift in Sources */,
 				A1E3E3FA1CA4BD430035B129 /* AppDelegate.swift in Sources */,
+				A11964601CAB8F7F00FC1D60 /* LotteryTableViewController.swift in Sources */,
+				A1E4A5B11CB032F000A91B8C /* HeaderLotteryCell.swift in Sources */,
+				A119645C1CAB7C9600FC1D60 /* LotteryTableViewCell.swift in Sources */,
+				A1E4A5B71CB1038A00A91B8C /* StandingsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,14 +403,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A1E3E3FD1CA4BD430035B129 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A1E3E3FE1CA4BD430035B129 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A1E3E4021CA4BD430035B129 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -398,23 +497,29 @@
 		};
 		A1E3E41F1CA4BD430035B129 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF2D015E834373818C5EBBEB /* Pods-Go.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Go/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Nilay.Go;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		A1E3E4201CA4BD430035B129 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE6FF3C0C604863BD1CC8E41 /* Pods-Go.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Go/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Nilay.Go;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -485,6 +590,7 @@
 				A1E3E4201CA4BD430035B129 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A1E3E4211CA4BD430035B129 /* Build configuration list for PBXNativeTarget "GoTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +599,7 @@
 				A1E3E4231CA4BD430035B129 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A1E3E4241CA4BD430035B129 /* Build configuration list for PBXNativeTarget "GoUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +608,7 @@
 				A1E3E4261CA4BD430035B129 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
